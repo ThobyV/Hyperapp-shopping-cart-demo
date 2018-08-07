@@ -13,13 +13,13 @@ const dev = !!process.env.ROLLUP_WATCH
 export default {
   input: 'src/index.js',
   output: {
-    file: 'static/index.js',
+    file: 'docs/index.js',
     sourcemap: dev ? 'inline' : false,
     format: 'iife',
   },
   plugins: [
     sass({
-       /*processor: css => { 
+       processor: css => { 
       const result = minifier.renderSync({
          data: css,
          sourcemap: true,
@@ -29,7 +29,7 @@ export default {
       })
     }) 
          return result.css.toString(); 
-    },*/
+    },
       insert: true
     }),
     resolve({ jsnext: true,
