@@ -1,0 +1,41 @@
+
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+
+
+$primary: rgb(48, 48, 48);
+$body-background-color: 	rgb(25, 25, 25);
+$grey: rgb(122, 131, 148);
+
+$badge-border-size: 	.0rem;
+$badge-border-radius:  1rem;
+
+$link: $red;
+
+$input-background-color: $white-ter;
+$input-border-color: $white-ter;
+$input-shadow: inset 0 0 0 rgba($black, 0);
+
+$red: rgb(255, 22, 0);
+
+$box-background-color: 	rgb(33, 33, 33);
+$box-padding: 	.8rem;
+$box-radius: 	0rem;
+
+$modal-content-margin-mobile: 	0px;
+$modal-content-spacing-mobile: 	160px;
+$modal-background-background-color: 	rgba($black, 0.16);
+$modal-card-head-background-color: 	rgb(33, 33, 33);
+$modal-card-body-background-color: 	rgb(57, 57, 57);
+$modal-card-title-color: 	$white;
+$modal-card-head-radius: 	0rem;
+$modal-card-foot-radius: 	0rem;
+$modal-card-head-border-bottom: 	0px;
+$modal-card-foot-border-top: 	0px;
+
+$text: $grey;
+$hr-background-color: 	$primary;
+
+$dimensions: 	16 24 32 48 64 96 128 196;
+
+$section-padding: 	3rem .5rem;
