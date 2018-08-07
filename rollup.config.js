@@ -31,7 +31,7 @@ export default {
          return result.css.toString(); 
     },
      output: {
-       file: '/docs/app.css'
+       file: '/docs/index.css'
      }
     }),
     resolve({ jsnext: true,
