@@ -43,10 +43,10 @@ export default {
       exclude: 'node_modules/**',
     }),
     prod && uglify(),
-    dev && livereload('static'),
+    dev && livereload('docs'),
     dev &&
     serve({
-      contentBase: ['static'],
+      contentBase: ['docs'],
       historyApiFallback: true,
       port: 8080,
     }),
