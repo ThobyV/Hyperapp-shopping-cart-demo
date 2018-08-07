@@ -27,29 +27,22 @@ export const actions = {
 
 
   ADD_MOVIE_TO_CART: (movie_id) => (state) => ({
-
     cart_count: state.cart_count += 1,
-
     cart:  state.cart.filter(movie => movie.id === movie_id).length>0  ?
-
     Object.assign(state.cart, state.cart[state.cart.findIndex(obj =>
     obj.id === movie_id )].quantity ++ )
-
      : 
-
     state.cart.concat(state.movies.filter( movie => movie.id == movie_id).map(res =>
     ({ movie_title: res.title,
        price: res.price, 
        movie_poster: res.poster_path, 
        total: res.price, quantity: 1,
        id: res.id }) )),
-    
     cart_total: state.cart.reduce( (acc, cur) => {
     return acc + cur.price * cur.quantity;
     
     }, 0),
-
-
+    
   }),
 
 }
