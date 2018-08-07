@@ -30,7 +30,9 @@ export default {
     }) 
          return result.css.toString(); 
     },
-      insert: true
+     output: {
+       file: '/docs/app.css'
+     }
     }),
     resolve({ jsnext: true,
               browser: true, }),
