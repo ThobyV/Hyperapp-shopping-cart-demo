@@ -1,6 +1,6 @@
 # HyperShop
 
-> Simple shopping Cart Demo SPA built using Hyperapp/Hyperapp Router
+> Simple movie-based shopping Cart Demo SPA built using Hyperapp/Hyperapp Router/Hyperapp Transitions
 
 I had worked on this to learn the basics of ```hyperapp``` and it's awesome state management/virtual DOM rendering and Component routing features. It's a repo meant for an introductory tutorial on hyperapp js.
 
@@ -21,7 +21,7 @@ npm run build    // create production ready files for deploying
 
 #Built Using
 
-``` Hyperapp JS V1 ``` : state management/virtual Dom rendering
-``` Hyperapp Router ```: component routing
-``` Hyperapp Transitions``` : smooth css-based animations for components
-``` Bulma ``` awesome css framework
+-``` Hyperapp JS V1 ``` : state management/virtual Dom rendering
+-``` Hyperapp Router ```: component routing
+-``` Hyperapp Transitions``` : smooth css-based animations for components
+-``` Bulma ``` awesome css framework
