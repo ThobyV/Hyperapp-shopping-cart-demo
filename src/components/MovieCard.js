@@ -6,7 +6,7 @@ export const MovieCard = ({ movie_id, title, poster, price, rating, planet_shipp
 
 <div>
 
-<Link to={`/details/${movie_id}`} >
+<Link to={`/Hyperapp-shopping-cart-demo/details/${movie_id}`} >
 
  <Enter time={200} easing="ease-in-out" 
         css={{opacity: "0", transform: "scale(1,1)"}}>

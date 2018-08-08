@@ -53,7 +53,7 @@ export const App = () => ( state, actions ) =>
     state.movie_list.map(
    ({ id, title, poster_path, price, vote_average, planet_shipping, overview, release_date }) =>
 
-<div className="column  is-one-third-tablet is-one-third-desktop is-one-quarter-widescreen is-one-quarter-fullhd">
+<div className="column  is-one-third-mobile is-one-third-tablet is-one-third-desktop is-one-quarter-widescreen is-one-quarter-fullhd">
 
 
       <MovieCard movie_id = {id}
