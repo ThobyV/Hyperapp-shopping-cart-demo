@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "hyperapp-pwa",
-  "description": "A ready-to-deploy progressive web app starter",
-  "author": "Luke Jackson (lukejacksonn@gmail.com)",
+  "name": "hyperapp-shopping-cart-demo",
+  "description": "A simplistic movie shopping cart SPA built using Hyperapp JS V1",
+  "author": "Thoby V",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
