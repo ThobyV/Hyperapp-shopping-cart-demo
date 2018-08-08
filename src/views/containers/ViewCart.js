@@ -10,7 +10,7 @@ export const ViewCart = ({match}) => ( state, actions ) => (
     
 <div>
 
-    <NavBar cart_count= {state.cart_count}/> 
+    <NavBar cart_count= {state.cart_item_count}/> 
 
 <section class="section">
 <div class="container">    
@@ -34,7 +34,7 @@ export const ViewCart = ({match}) => ( state, actions ) => (
 
     
 }
-    { <p class="title is-5 has-text-white"> total price: ${state.cart_total}  </p> }
+    { <p class="title is-5 has-text-white"> total price: ${state.cart_item_total}  </p> }
 
 
 </div>

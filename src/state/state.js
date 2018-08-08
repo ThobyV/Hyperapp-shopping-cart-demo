@@ -11,7 +11,7 @@ export const state =  {
   cart: [],
   range_value: 160,
   switch_value: false,
-  cart_count: 0,
-  cart_total: 0,
+  cart_item_count: 0,
+  cart_item_total: 0,
 }
 

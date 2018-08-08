@@ -10,7 +10,7 @@ export const App = () => ( state, actions ) =>
 
 <div oncreate= { () => actions.GET_ALL_MOVIES() } >
 
-      <NavBar cart_count= {state.cart_count}/> 
+      <NavBar cart_count= {state.cart_item_count}/> 
 
 <section class="section">
 <div class="container">    

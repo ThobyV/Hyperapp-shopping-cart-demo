@@ -16,7 +16,7 @@ export const ViewMovieDetails = ({match}) => (state, actions) => (
     map( ({ id, title, overview, poster_path, vote_average, release_date , price }) => 
 
     <MovieDetails 
-        cart_count={state.cart_count}
+        cart_count={state.cart_item_count}
         id={id}
         title={title}
         plot={overview}
