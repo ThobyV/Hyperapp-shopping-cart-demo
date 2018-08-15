@@ -4,7 +4,7 @@ import {  location } from "@hyperapp/router"
 
 import { state }  from './state/state'
 import  { actions } from './actions/actions'
-import { view }   from './router_views'
+import { view }   from './routes'
 
 
 import  './styles/app.scss'
