@@ -1,12 +1,12 @@
 import { h } from 'hyperapp'
-import {Enter, Exit, Move} from "@hyperapp/transitions"
+import {Enter} from "@hyperapp/transitions"
 import { Link, Route, location, Switch } from "@hyperapp/router"
 
 export const MovieCard = ({ movie_id, title, poster, price, rating, planet_shipping, plot }) => (
 
 <div>
 
-<Link to={`/Hyperapp-shopping-cart-demo/details/${movie_id}`} >
+<Link to={`/details/${movie_id}`} >
 
  <Enter time={200} easing="ease-in-out" 
         css={{opacity: "0", transform: "scale(1,1)"}}>

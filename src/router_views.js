@@ -13,9 +13,9 @@ export const view = ( state, actions ) =>
 <div>
 
 <Switch>    
-    <Route path="/Hyperapp-shopping-cart-demo" render={ App } />   
-    <Route path="/Hyperapp-shopping-cart-demo/cart" render={ ViewCart } />         
-    <Route path={ "/Hyperapp-shopping-cart-demo/details/:movie_id"} render={ ViewMovieDetails} />
+    <Route path="/" render={ App } />   
+    <Route path="/cart" render={ ViewCart } />         
+    <Route path={ "/details/:movie_id"} render={ ViewMovieDetails} />
   </Switch>
 
 </div>
